@@ -127,7 +127,7 @@ app.add_handler(CommandHandler("slotoyna", slot))
 app.add_handler(CommandHandler("gunluk", gunluk))
 app.add_handler(CommandHandler("topliste", topliste))
 
-app.job_queue.run_repeating(fake_activity, interval=1200, first=10)
+# app.job_queue.run_repeating(fake_activity, interval=1200, first=10)
 
 print("Bot çalışıyor...")
 app.run_polling()
